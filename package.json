@@ -1,0 +1,23 @@
+{
+  "name": "verysimplenodejs",
+  "version": "1.0.0",
+  "description": "The sample project for CI_CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hatoriz/verysimplenodejs.git"
+  },
+  "keywords": [],
+  "author": "Hatoriz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hatoriz/verysimplenodejs/issues"
+  },
+  "homepage": "https://github.com/hatoriz/verysimplenodejs",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
