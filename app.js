@@ -6,7 +6,7 @@ app.get("/",function(req,res) {
 });
 
 app.get("/greeting", function(req,res){
-  res.send("greeting returned !");
+  res.send("greeting has been returned !");
 });
 
 app.listen("8899");
