@@ -1,6 +1,6 @@
 {
-  "name": "motorcycle",
-  "plural": "motorcycles",
+  "name": "motorcycle1",
+  "plural": "motorcycle1s",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

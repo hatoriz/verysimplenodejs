@@ -1,7 +1,7 @@
 module.exports = function(app) {
   // automigrate for models, every time the app will running,
   //db will be replaced with this data.
-  app.dataSources.motorcycleDataSource.automigrate('motorcycle',
+  app.dataSources.motorcycleDataSource.automigrate('motorcycle1',
     function(err) {
       if (err) throw err;
       // Simple function to create content
@@ -44,7 +44,7 @@ module.exports = function(app) {
           "review": "Emblematic motorcycle of the world",
           "id": "5733845b00f4a48b2edd54cd",
           "ObjectId": "57337088fabe969f2dd4078e"
-        },:q
+        },
         {
           "name": "Clay Morrow",
           "email": "clay@soa.com",

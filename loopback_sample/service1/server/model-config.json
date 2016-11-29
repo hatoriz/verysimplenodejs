@@ -13,7 +13,7 @@
       "./mixins"
     ]
   },
-  "motorcycle": {
+  "motorcycle1": {
     "dataSource": "motorcycleDataSource",
     "public": true
   },
