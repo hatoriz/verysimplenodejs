@@ -1,0 +1,6 @@
+nodeservice:
+  build: .
+  volumes:
+    - "./:/app"
+  ports:
+    - "3001:3001"
