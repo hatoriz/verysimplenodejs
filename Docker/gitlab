@@ -1,2 +1,0 @@
-docker run --detach --hostname gitlab.hatoriz.com --env GITLAB_OMNIBUS_CONFIG="external_url 'http://gitlab.hatoriz.com/'; gitlab_rails['lfs_enabled'] = true;"     --publish 44 3:443 --publish 80:80 --publish 22:22   --name gitlab  --restart always    --volume \e\docker\gitlab\config\:/etc/gitlab --volume \e\docker\gitlab\logs\:/var/log/gitlab --volume  \e\docker\gitlab\data\:/var/opt/gitlab gitlab/gitlab-ce:latest
-a6f4598d74a9f701787263878724ad1a344bcf61ead172652f21d34729f98a34
