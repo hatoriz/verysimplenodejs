@@ -10,3 +10,4 @@ app.get("/greeting", function(req,res){
 });
 
 app.listen("3001");
+console.log("Hello world from Hatoriz 101");
