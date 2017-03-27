@@ -1,0 +1,21 @@
+{
+  "name": "dummy01",
+  "version": "1.0.0",
+  "description": "Dummy for fiancejs",
+  "repository": {
+      "type":"git",
+      "url":"https://github.com/hatoriz/verysimplenodejs"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "finance"
+  ],
+  "author": "hatoriz",
+  "license": "ISC",
+  "dependencies": {
+    "financejs": "^4.1.0"
+  }
+}
